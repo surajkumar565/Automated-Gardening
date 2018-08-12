@@ -31,7 +31,7 @@ int main()
 	{
 	a=adc_read(0);
 	
-	if(a>280)
+	if(a>280)	//Soil moisture value
 	{
 	pwm(180);
 	
